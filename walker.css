@@ -1,0 +1,27 @@
+/* ────────────────────────────────────────────────────────────
+ * Omarchy Custom Theme for Walker
+ * Generated with Omarchist
+ * ────────────────────────────────────────────────────────────
+ */
+
+@define-color selected-text #FFFFFF;
+@define-color text #808080;
+@define-color base #000000;
+@define-color border #2A2A2A;
+@define-color foreground #F5F5F5;
+@define-color background #000000;
+
+@define-color hover #1E1E1E;
+
+
+window .search-container,
+window .search {
+  background: alpha(@hover, 0.3);
+  color: @foreground;
+  border: 1px solid alpha(@border, 0.5);
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
